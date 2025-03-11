@@ -1,0 +1,808 @@
+/* josefin-sans-500 - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/josefin-sans-v32-latin-500.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    url('../fonts/josefin-sans-v32-latin-500.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+/* josefin-sans-500italic - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Josefin Sans';
+    font-style: italic;
+    font-weight: 500;
+    src: url('../fonts/josefin-sans-v32-latin-500italic.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    url('../fonts/josefin-sans-v32-latin-500italic.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+/* josefin-sans-600 - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/josefin-sans-v32-latin-600.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    url('../fonts/josefin-sans-v32-latin-600.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+/* josefin-sans-600italic - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Josefin Sans';
+    font-style: italic;
+    font-weight: 600;
+    src: url('../fonts/josefin-sans-v32-latin-600italic.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    url('../fonts/josefin-sans-v32-latin-600italic.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+/* source-serif-4-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Source Serif 4';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/source-serif-4-v8-latin-regular.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    url('../fonts/source-serif-4-v8-latin-regular.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+/* source-serif-4-italic - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Source Serif 4';
+    font-style: italic;
+    font-weight: 400;
+    src: url('../fonts/source-serif-4-v8-latin-italic.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    url('../fonts/source-serif-4-v8-latin-italic.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+/* source-serif-4-500 - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Source Serif 4';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/source-serif-4-v8-latin-500.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    url('../fonts/source-serif-4-v8-latin-500.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+/* source-serif-4-500italic - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Source Serif 4';
+    font-style: italic;
+    font-weight: 500;
+    src: url('../fonts/source-serif-4-v8-latin-500italic.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    url('../fonts/source-serif-4-v8-latin-500italic.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+/* source-serif-4-600 - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Source Serif 4';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/source-serif-4-v8-latin-600.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    url('../fonts/source-serif-4-v8-latin-600.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+/* source-serif-4-600italic - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Source Serif 4';
+    font-style: italic;
+    font-weight: 600;
+    src: url('../fonts/source-serif-4-v8-latin-600italic.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    url('../fonts/source-serif-4-v8-latin-600italic.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+/* source-serif-4-700 - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Source Serif 4';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/source-serif-4-v8-latin-700.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    url('../fonts/source-serif-4-v8-latin-700.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+/* source-serif-4-700italic - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Source Serif 4';
+    font-style: italic;
+    font-weight: 700;
+    src: url('../fonts/source-serif-4-v8-latin-700italic.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    url('../fonts/source-serif-4-v8-latin-700italic.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+
+html,
+body {
+    font-family: 'Source Serif 4', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    color: #0d222f;
+    background-color: #f7f4ec;
+}
+body {
+    position: relative;
+    overflow-y: scroll;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #0d222f;
+}
+
+h1 {
+    margin-top: 30px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 34px;
+    text-align: left;
+    letter-spacing: 1px;
+    color: #0d222f;
+}
+
+h2 {
+    margin-top: 80px;
+    margin-bottom: 40px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: left;
+    letter-spacing: 1px;
+    color: #0d222f;
+}
+
+h3 {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 600px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 28px;
+    overflow: hidden;
+    text-align: left;
+    color: #0d222f;
+}
+
+@media only screen and (min-width: 992px) {
+    h1 {
+        font-size: 40px;
+        line-height: 55px;
+    }
+
+    h2 {
+        font-size: 40px;
+        line-height: 55px;
+    }
+}
+
+a {
+    color: #1265ea;
+    text-decoration: none;
+}
+
+a:hover,
+a:focus {
+    color: #17365d;
+}
+
+p, li {
+    hyphens: auto;
+}
+
+strong {
+    font-style: normal;
+    font-weight: 500;
+}
+
+em {
+    color: #0d222f;
+    font-style: normal;
+    font-weight: 500;
+}
+
+hr {
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: #0d222f;
+    opacity: 1;
+}
+
+:focus {
+    box-shadow: none !important;
+}
+
+.font-size-18 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.font-size-30 {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+@media only screen and (min-width: 992px) {
+    .font-size-18 {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .font-size-30 {
+        font-size: 30px;
+        line-height: 50px;
+    }
+}
+
+.btn {
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+.btn-link {
+    color: #0d222f;
+    border-bottom: 1px solid #ddab57;
+    text-decoration: none;
+}
+
+.btn-link:hover,
+.btn-link:active,
+.btn-link:focus {
+    color: #0d222f;
+    border-bottom: 1px solid #cc9b48;
+}
+
+.btn.btn-primary,
+.btn.btn-secondary {
+    padding-top: 0;
+    padding-bottom: 0;
+    height: 40px;
+    min-width: 200px;
+    font-size: 18px;
+    font-style: italic;
+    line-height: 40px;
+    letter-spacing: 1px;
+    border: none;
+    border-radius: 40px;
+    background-color: #ddab57;
+    color: #ffffff;
+}
+
+.btn.btn-primary:hover,
+.btn.btn-primary:active,
+.btn.btn-primary:focus {
+    background-color: #cc9b48;
+    box-shadow: none;
+}
+
+.btn.btn-secondary {
+    background-color: #f8f4e8;
+    color: #0d222f;
+}
+
+.btn.btn-secondary:hover,
+.btn.btn-secondary:active,
+.btn.btn-secondary:focus {
+    background-color: #f7f4ec;
+    box-shadow: none;
+}
+
+
+.carousel-control.left {
+    background-image: none;
+}
+
+.carousel-control.right {
+    background-image: none;
+}
+
+.carousel-control {
+    top: 50%;
+    left: 0;
+    width: 50px;
+    margin-top: -25px;
+}
+
+.carousel-control-prev {
+    display: none;
+    width: 5%;
+}
+
+.carousel-control-next {
+    display: none;
+    width: 5%;
+}
+
+.carousel-indicators {
+    margin-bottom: -50px;
+}
+
+.carousel:hover .carousel-control-prev {
+    display: none;
+    transition: all 3s ease;
+}
+
+.carousel:hover .carousel-control-next {
+    display: none;
+    transition: all 3s ease;
+}
+
+.carousel:hover .carousel-control-next-icon {
+    margin-left: -1.25rem;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 8px;
+    height: 8px;
+    border-radius: 100%;
+    border: 1px solid #e1e6ed;
+    background-color: #e1e6ed;
+    opacity: 1;
+}
+
+.carousel-indicators [data-bs-target].active {
+    border: 1px solid #ddab57;
+    background-color: #ddab57;
+}
+
+/* Navigation */
+nav.navbar {
+    margin-bottom: 0;
+    padding: 0;
+    border: 0;
+}
+
+nav.navbar .navbar-brand {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+nav.navbar .navbar-collapse {
+    justify-content: flex-end;
+}
+
+.navbar-nav {
+    margin-top: 30px;
+}
+
+.navbar-nav .nav-link {
+    padding-top: 0;
+    padding-bottom: 0;
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    color: #0d222f !important;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link:active,
+.navbar-nav .nav-link:focus,
+.navbar-nav .nav-link.active {
+    color: #0d222f !important;
+}
+
+.navbar-nav .btn {
+    width: 250px;
+}
+
+.navbar-light .navbar-toggler {
+    position: fixed;
+    top: 0;
+    right: 0;
+    border: none;
+    z-index: 2000;
+}
+
+.navbar-light .navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.navbar-light .navbar-toggler span:nth-child(1) {
+    display: none;
+    color: #0d222f;
+}
+
+.navbar-light .navbar-toggler span:nth-child(2) {
+    display: none;
+    color: #0d222f;
+}
+
+.navbar-light .navbar-toggler > label {
+    display: inline;
+    font-size: 20px;
+    font-weight: normal;
+    font-style: italic;
+    line-height: 20px;
+    letter-spacing: 1px;
+}
+
+.navbar-light .navbar-toggler.collapsed {
+    position: relative;
+    top: 0;
+}
+
+.navbar-light .navbar-toggler.collapsed span:nth-child(1) {
+    display: none;
+}
+
+@media (min-width: 576px) {
+    .navbar-nav {
+        margin-top: 30px;
+    }
+
+    .nav-link {
+        font-size: 30px;
+        line-height: 50px;
+    }
+
+    .nav-link img {
+        height: 60px;
+    }
+
+    .navbar-light .navbar-toggler.collapsed {
+        top: 0;
+    }
+
+    .navbar-light .navbar-toggler.collapsed span:nth-child(1) {
+        display: inline;
+    }
+
+    .navbar-light .navbar-toggler span:nth-child(2) {
+        display: inline;
+    }
+}
+
+.navbar-light .navbar-toggler.collapsed span:nth-child(2) {
+    display: none;
+}
+
+#hamburger {
+    display: none;
+}
+
+#hamburger + label {
+    position: relative;
+    width: 30px;
+    height: 23px;
+    display: inline-block;
+    cursor: pointer;
+    margin: 10px 0 10px 10px;
+    transition: all .5s;
+    text-align: left;
+}
+
+#hamburger + label div,
+#hamburger + label div:before,
+#hamburger + label div:after {
+    background: #0d222f;
+    position: absolute;
+    height: 2px;
+    width: 30px;
+    border-radius: 2px;
+    transition: all .5s;
+}
+
+.navbar-toggler.collapsed #hamburger + label div {
+    background: #0d222f;
+}
+
+#hamburger + label div:first-child {
+    top: 0;
+}
+
+#hamburger + label div:nth-child(2) {
+    top: 10px;
+}
+
+#hamburger + label div:nth-child(3) {
+    top: 20px;
+}
+
+#hamburger + label div {
+    transition: top .15s .17s, transform .12s .033s;
+}
+
+#hamburger + label div:nth-child(3) {
+    transition: top .15s .17s, transform .17s;
+}
+
+button:not(.collapsed) #hamburger + label div {
+    top: 10px;
+    width: 30px;
+    transform: rotate(135deg);
+    transition: top .1s, transform .12s .1s;
+}
+
+button:not(.collapsed) #hamburger + label div:nth-child(3) {
+    transform: rotate(225deg);
+    transition: top .1s, transform .17s .1s;
+}
+
+.navbar {
+    position: relative;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+.navbar .navbar-brand img {
+    margin-top: 0;
+    margin-bottom: 0;
+    height: 30px;
+}
+
+.navbar-nav .nav-link:nth-child(5) {
+    padding-right: 0;
+}
+
+.navbar-collapse .navbar-nav {
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.navbar-nav .nav-link {
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    text-align: center;
+}
+
+.navbar .navbar-collapse {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    position: fixed;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center !important;
+    background: #ddab57;
+    opacity: 0;
+    transition: opacity 0.35s ease;
+}
+
+.navbar .navbar-collapse.collapse {
+    display: flex;
+    opacity: 0;
+    pointer-events: none;
+    z-index: 2;
+}
+
+.navbar .navbar-collapse.collapsing[style*="height"] {
+    height: 100vh !important;
+    opacity: 1;
+}
+
+.navbar .navbar-collapse.collapsing {
+    height: 100vh;
+    opacity: 0;
+}
+
+.navbar .navbar-collapse.collapse.show {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.navbar .navbar-collapse .navbar-nav {
+    margin-top: 60px;
+    margin-right: initial !important;
+    margin-bottom: auto
+}
+
+@media (min-width: 576px) {
+    .navbar .navbar-collapse .navbar-nav {
+        margin-top: 100px;
+    }
+}
+
+.navbar .navbar-collapse .navbar-brand {
+    position: absolute;
+    left: 20px;
+}
+
+.navbar .navbar-collapse .navbar-close {
+    position: absolute;
+    top: 35px;
+    right: 35px;
+    font-size: 13px;
+    color: #0d222f;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.navbar .navbar-collapse .btn-close {
+    background-image: url('data:image/svg+xml,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22utf-16%22%3F%3E%3Csvg%20version%3D%221.1%22%20id%3D%22Ebene_1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20x%3D%220px%22%20y%3D%220px%22%20viewBox%3D%220%200%2020%2020%22%20style%3D%22enable-background%3Anew%200%200%2020%2020%3B%22%20xml%3Aspace%3D%22preserve%22%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E.st0%7Bfill%3Anone%3Bstroke%3A%23FFFFFF%3Bstroke-width%3A2%3Bstroke-linecap%3Around%3B%7D%3C%2Fstyle%3E%3Cline%20id%3D%22Linie_19%22%20class%3D%22st0%22%20x1%3D%2217.1%22%20y1%3D%222.9%22%20x2%3D%223%22%20y2%3D%2217%22%2F%3E%3Cline%20id%3D%22Linie_20%22%20class%3D%22st0%22%20x1%3D%223%22%20y1%3D%222.9%22%20x2%3D%2217.1%22%20y2%3D%2217%22%2F%3E%3C%2Fsvg%3E%0A');
+    background-size: 20px 20px;
+    vertical-align: middle;
+}
+
+.navbar .navbar-collapse .navbar-nav .nav-link {
+    color: #0d222f !important;
+}
+
+.navbar .navbar-collapse .navbar-nav .nav-link:hover,
+.navbar .navbar-collapse .navbar-nav .nav-link:active {
+    color: #0d222f !important;
+}
+
+@media (min-width: 768px) {
+    .navbar .navbar-brand img {
+        height: 40px;
+    }
+}
+
+@media (min-width: 992px) {
+    .navbar .navbar-brand img {
+        height: 50px;
+    }
+}
+
+@media (max-width: 991px) {
+    .navbar-nav {
+        margin-left: initial !important;
+    }
+}
+
+/* Sections */
+#header .logo {
+    position: absolute ;
+    bottom: -113px;
+    left: 50%;
+    margin-left: -113px;
+}
+
+#willkommen hr {
+    color: #0d222f;
+    height: 2px;
+}
+
+#keyfacts {
+    background-color: #ddab57;
+    background-image: url('../images/kornkammer_logo_bg.svg');
+    background-size: 420px 420px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.card {
+    background-color: #f0e9d6;
+}
+
+.card .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 215px;
+}
+
+.card .card-body img {
+    margin-left: -12px;
+}
+
+.card h4 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    font-style: italic;
+    line-height: 40px;
+    color: #0d222f;
+}
+
+.card a {
+    position: relative;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 1px;
+}
+
+.card a {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    margin-left: -10px;
+    width: 20px;
+    height: 20px;
+    background-image: url('data:image/svg+xml,<%3Fxml version="1.0" encoding="UTF-8"%3F><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><circle cx="10" cy="10" r="10" fill="%230d222f"/><line x1="7" y1="10" x2="13" y2="10" fill="none" stroke="%23fff" stroke-width="1.5"/><line x1="10" y1="7" x2="10" y2="13" fill="none" stroke="%23fff" stroke-width="1.5"/></svg>');
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+}
+
+.card ul {
+    padding-right: 1rem;
+}
+
+.card ul li {
+    position: relative;
+}
+
+.card a[aria-expanded="true"] {
+    background-image: url('data:image/svg+xml,<%3Fxml version="1.0" encoding="UTF-8"%3F><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><circle cx="10" cy="10" r="10" fill="%230d222f"/><line x1="7" y1="10" x2="13" y2="10" fill="none" stroke="%23fff" stroke-width="1.5"/></svg>');
+}
+
+.card .collapse,
+.card .collapsing {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    background-color: #f0e9d6;
+}
+
+/* Kontakt */
+#kontakt h4 {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    font-style: italic;
+    line-height: 40px;
+    color: #0d222f;
+}
+
+footer p {
+    font-size: 22px;
+    line-height: 36px;
+    color: #0d222f;
+}
+
+/* Impressum */
+body.imprint h4 {
+    font-weight: 300;
+    color: #0d222f;
+}
+
+body.imprint p {
+    margin-bottom: 1.5rem;
+}
+
+/* Footer */
+footer {
+    background-color: #ddab57;
+    background-image: url('../images/kornkammer_logo_bg.svg');
+    background-size: 420px 420px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+footer h4 {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    font-style: italic;
+    line-height: 40px;
+    color: #0d222f;
+}
+
+footer p {
+    font-size: 22px;
+    font-weight: 500;
+    font-style: italic;
+    line-height: 32px;
+    color: #0d222f;
+}
+
+footer a,
+footer a:hover,
+footer a:focus {
+    color: #0d222f;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    font-style: italic;
+    line-height: 28px;
+    letter-spacing: 1px;
+    text-decoration: none !important;
+}
+
+@media only screen and (min-width: 992px) {
+    footer p {
+        font-size: 25px;
+        line-height: 40px;
+    }
+}

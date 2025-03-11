@@ -1,0 +1,8 @@
+RewriteEngine On
+RewriteBase /
+
+RewriteCond %{SERVER_PORT} !=443
+RewriteRule ^(.*)$ https://www.kornkammer-naumburg.de/$1 [R=301,L]
+
+RewriteCond %{HTTP_HOST} !^www\.kornkammer-naumburg\.de [NC]
+RewriteRule ^(.*)$ https://www.kornkammer-naumburg.de/$1 [R=301,L]
