@@ -140,11 +140,11 @@ h1 {
 }
 
 h2 {
-    margin-top: 80px;
+    margin-top: 100px;
     margin-bottom: 40px;
-    font-size: 18px;
+    font-size: 24px;
     font-weight: 600;
-    line-height: 30px;
+    line-height: 34px;
     text-align: left;
     letter-spacing: 1px;
     color: #0d222f;
@@ -197,7 +197,7 @@ strong {
 em {
     color: #0d222f;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 700;
 }
 
 hr {
@@ -214,6 +214,7 @@ hr {
 
 .font-size-18 {
     font-size: 16px;
+    font-family: 'Josefin Sans', sans-serif;
     font-weight: 400;
     line-height: 22px;
 }
@@ -260,7 +261,9 @@ hr {
     padding-bottom: 0;
     height: 40px;
     min-width: 200px;
+    font-family: 'Josefin Sans',sans-serif;
     font-size: 18px;
+    font-weight: 500;
     font-style: normal;
     line-height: 40px;
     letter-spacing: 1px;
@@ -365,8 +368,8 @@ hr {
     height: 50px;
     background-image: url('data:image/svg+xml,<%3Fxml version="1.0" encoding="UTF-8"%3F><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><circle cx="10" cy="10" r="10" fill="%230d222f"/><line x1="7" y1="10" x2="13" y2="10" fill="none" stroke="%23fff" stroke-width="1.5"/><line x1="10" y1="7" x2="10" y2="13" fill="none" stroke="%23fff" stroke-width="1.5"/></svg>');
     background-size: 16px 16px;
-    background-position-x: 17px;
-    background-position-y: 17px;
+    background-position-x: 15px;
+    background-position-y: 15px;
     background-color: transparent;
     transition: none;
 }
@@ -379,7 +382,9 @@ hr {
 }
 
 .accordion-button:not(.collapsed) {
+    color: #0d222f;
     background-color: #f7f4ec;
+    box-shadow: none;
 }
 
 .accordion-flush .accordion-item:first-child {
@@ -393,6 +398,11 @@ hr {
 .accordion-button:not(.collapsed)::after {
 
     background-image: url('data:image/svg+xml,<%3Fxml version="1.0" encoding="UTF-8"%3F><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><circle cx="10" cy="10" r="10" fill="%230d222f"/><line x1="7" y1="10" x2="13" y2="10" fill="none" stroke="%23fff" stroke-width="1.5"/></svg>');
+}
+
+.accordion-body {
+    padding-left: 0;
+    padding-right: 0;
 }
 
 .accordion-item {
@@ -410,13 +420,13 @@ hr {
 
     .accordion-button::after {
         background-size: 20px 20px;
-        background-position-x: 14px;
+        background-position-x: 15px;
         background-position-y: 15px;
     }
 
     .accordion-button:not(.collapsed)::after {
         background-position-x: 15px;
-        background-position-y: 16px;
+        background-position-y: 15px;
     }
 }
 
@@ -441,11 +451,12 @@ nav.navbar .navbar-collapse {
 }
 
 .navbar-nav .nav-link {
+    font-family: 'Josefin Sans','sans-serif';
+    font-weight: 600;
     padding-top: 0;
     padding-bottom: 0;
-    font-size: 24px;
-    line-height: 36px;
-    font-weight: 300;
+    font-size: 40px;
+    line-height: 60px;
     letter-spacing: 1px;
     color: #0d222f !important;
 }
@@ -474,11 +485,17 @@ nav.navbar .navbar-collapse {
 }
 
 .navbar-light .navbar-toggler span:nth-child(1) {
+    font-family: 'Josefin Sans','sans-serif';
+    font-size: 18px;
+    font-weight: 500;
     display: none;
     color: #0d222f;
 }
 
 .navbar-light .navbar-toggler span:nth-child(2) {
+    font-family: 'Josefin Sans','sans-serif';
+    font-size: 18px;
+    font-weight: 500;
     display: none;
     color: #0d222f;
 }
@@ -661,7 +678,7 @@ button:not(.collapsed) #hamburger + label div:nth-child(3) {
     opacity: 1;
     pointer-events: auto;
     background-image: url('../images/kornkammer_logo_bg.svg');
-    background-size: 420px 420px;
+    background-size: 500px 500px;
     background-position: top center;
     background-repeat: no-repeat;
 }
@@ -748,6 +765,13 @@ button:not(.collapsed) #hamburger + label div:nth-child(3) {
     background-repeat: no-repeat;
 }
 
+#keyfacts p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
 .card {
     background-color: #f0e9d6;
 }
@@ -758,21 +782,22 @@ button:not(.collapsed) #hamburger + label div:nth-child(3) {
     justify-content: center;
     align-items: center;
     width: 100%;
-    min-height: 215px;
+    min-height: 180px;
 }
 
-.card .card-body img {
-    margin-left: -12px;
+.card .card-body h4 {
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 .card h4 {
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Source Serif 4', sans-serif;
     font-size: 18px;
     font-weight: 500;
     font-style: normal;
     line-height: 40px;
     text-transform: uppercase;
     color: #0d222f;
+    letter-spacing: 1px;
 }
 
 .card a {
@@ -783,10 +808,7 @@ button:not(.collapsed) #hamburger + label div:nth-child(3) {
 }
 
 .card a {
-    position: absolute;
-    bottom: 30px;
-    left: 50%;
-    margin-left: -10px;
+    margin-bottom: 5px;
     width: 20px;
     height: 20px;
     background-image: url('data:image/svg+xml,<%3Fxml version="1.0" encoding="UTF-8"%3F><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><circle cx="10" cy="10" r="10" fill="%230d222f"/><line x1="7" y1="10" x2="13" y2="10" fill="none" stroke="%23fff" stroke-width="1.5"/><line x1="10" y1="7" x2="10" y2="13" fill="none" stroke="%23fff" stroke-width="1.5"/></svg>');
@@ -796,6 +818,7 @@ button:not(.collapsed) #hamburger + label div:nth-child(3) {
 
 .card ul {
     padding-right: 1rem;
+    padding-left: 1rem;
 }
 
 .card ul li {
@@ -862,6 +885,7 @@ footer h4 {
 }
 
 footer p {
+    font-family: "Josefin Sans", sans-serif;
     font-size: 22px;
     font-weight: 500;
     font-style: normal;
@@ -878,7 +902,6 @@ footer a:focus {
     font-weight: 500;
     font-style: normal;
     line-height: 28px;
-    letter-spacing: 1px;
     text-decoration: none !important;
 }
 
