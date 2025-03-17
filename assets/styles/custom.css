@@ -140,8 +140,8 @@ h1 {
 }
 
 h2 {
-    margin-top: 100px;
-    margin-bottom: 40px;
+    margin-top: 60px;
+    margin-bottom: 30px;
     font-size: 24px;
     font-weight: 600;
     line-height: 34px;
@@ -170,6 +170,8 @@ h3 {
     }
 
     h2 {
+        margin-top: 100px;
+        margin-bottom: 40px;
         font-size: 40px;
         line-height: 55px;
     }
@@ -455,8 +457,8 @@ nav.navbar .navbar-collapse {
     font-weight: 600;
     padding-top: 0;
     padding-bottom: 0;
-    font-size: 40px;
-    line-height: 60px;
+    font-size: 24px;
+    line-height: 36px;
     letter-spacing: 1px;
     color: #0d222f !important;
 }
@@ -542,6 +544,13 @@ nav.navbar .navbar-collapse {
 
     .navbar-light .navbar-toggler span:nth-child(2) {
         display: inline;
+    }
+}
+
+@media (min-width: 920px) {
+    .navbar-nav .nav-link {
+        font-size: 40px;
+        line-height: 60px;
     }
 }
 
@@ -684,14 +693,20 @@ button:not(.collapsed) #hamburger + label div:nth-child(3) {
 }
 
 .navbar .navbar-collapse .navbar-nav {
-    margin-top: 60px;
+    margin-top: 145px;
     margin-right: initial !important;
     margin-bottom: auto
 }
 
 @media (min-width: 576px) {
     .navbar .navbar-collapse .navbar-nav {
-        margin-top: 100px;
+        margin-top: 145px;
+    }
+}
+
+@media (min-width: 920px) {
+    .navbar .navbar-collapse .navbar-nav {
+        margin-top: 75px;
     }
 }
 
@@ -765,11 +780,22 @@ button:not(.collapsed) #hamburger + label div:nth-child(3) {
     background-repeat: no-repeat;
 }
 
+#keyfacts img {
+    margin-top: 10px;
+}
+
 #keyfacts p {
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 30px;
+    font-size: 24px;
     font-weight: 500;
-    line-height: 40px;
+    line-height: 34px;
+}
+
+@media only screen and (min-width: 992px) {
+    #keyfacts p {
+        font-size: 30px;
+        line-height: 40px;
+    }
 }
 
 .card {
@@ -792,10 +818,9 @@ button:not(.collapsed) #hamburger + label div:nth-child(3) {
 .card h4 {
     font-family: 'Source Serif 4', sans-serif;
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 600;
     font-style: normal;
     line-height: 40px;
-    text-transform: uppercase;
     color: #0d222f;
     letter-spacing: 1px;
 }
@@ -847,9 +872,15 @@ button:not(.collapsed) #hamburger + label div:nth-child(3) {
     color: #0d222f;
 }
 
-footer p {
-    font-size: 22px;
-    line-height: 36px;
+#kontakt p {
+    font-size: 18px;
+    line-height: 26px;
+    color: #0d222f;
+}
+
+#kontakt table td {
+    font-size: 18px;
+    line-height: 26px;
     color: #0d222f;
 }
 
