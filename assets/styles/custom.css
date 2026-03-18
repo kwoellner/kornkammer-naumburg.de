@@ -766,6 +766,72 @@ button:not(.collapsed) #hamburger + label div:nth-child(3) {
     margin-left: -113px;
 }
 
+#header .award {
+    position: absolute ;
+    top: 5%;
+    left: 0;
+}
+
+#header .award {
+    margin-left: 12px;
+}
+
+
+#header .award img {
+    width: 200px;
+    height: auto;
+}
+
+@media (min-width: 576px) {
+    #header .award {
+        margin-left: max(12px, calc((100vw - 540px) / 2 + 12px));
+    }
+}
+
+@media (min-width: 768px) {
+    #header .award {
+        margin-left: max(12px, calc((100vw - 720px) / 2 + 12px));
+    }
+}
+
+@media (min-width: 992px) {
+    #header .award {
+        margin-left: max(12px, calc((100vw - 960px) / 2 + 12px));
+    }
+
+    #header .award img {
+        width: 300px;
+        height: auto;
+    }
+}
+
+@media (min-width: 1200px) {
+    #header .award {
+        margin-left: max(12px, calc((100vw - 1140px) / 2 + 12px));
+    }
+
+    #header .award img {
+        width: 500px;
+        height: auto;
+    }
+
+}
+
+@media (min-width: 1400px) {
+    #header .award {
+        margin-left: max(12px, calc((100vw - 1320px) / 2 + 12px));
+    }
+}
+
+@media only screen and (min-width: 992px) {
+
+}
+
+@media only screen and (min-width: 1200px) {
+
+}
+
+
 #willkommen hr {
     color: #0d222f;
     height: 2px;
